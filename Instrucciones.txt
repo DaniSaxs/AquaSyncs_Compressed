@@ -1,0 +1,19 @@
+1. copiar y pegar las carpetas "1PhpUnity" y "AquaSyncs" dentro de la carpeta htdocs.
+
+2. Según los diferentes servidores, creé dos versiones del juego, si cuando entras al google y copias 
+en la URL localhost, y no tienes que ingresar el puerto "81", entonces entra a la carpeta 
+"EN BUSCA DEL NADO (Local)" y copia todos los archivos quen hay dentro, y pégalos dentro de la carpeta 
+"AquaSyncs",tal vez te aparezca "El destino tiene 17 archivos con los mismos nombres", dale click en 
+"Reemplazar los archivos en el destino" y listo.
+Si en la URL tu puerto sí es 81, entonces entra a la carpeta "EN BUSCA DEL NADO (Local = 81)", y copia todos
+los archivos que hay dentro y pégalos dentro de la carpeta "AquaSyncs", tal vez te aparezca
+"El destino tiene 17 archivos con los mismos nombres", dale click en 
+"Reemplazar los archivos en el destino" y listo.
+
+3. Entra al PhpMyAdmin y crea una base de datos con el nombre "AquaSyncs", luego ingresa a esa base de datos y le das
+click donde dice "Importar", luego le das click donde dice "Seleccionar archivo" y selecciona el archivo llamado
+"BD_aquasyncs.sql" y listo.
+
+4. Por último, en el mismo PhpMyAdmin crear otra base de datos que se llame "niveles", luego ingresa a ella y
+le das click en "Importar" luego le das click donde dice "Seleccionar archivo" y selecciona el archivo llamado
+"BD_niveles.sql" y listo.
